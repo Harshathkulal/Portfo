@@ -20,7 +20,7 @@ function Project() {
           />
           <div className="d-flex m-2 justify-content-around ">
             <a
-              href="#skills"
+              href="https://github.com/Harshathkulal/Todo-App"
               className="nav-link d-flex align-items-center rounded-pill border p-2"
             >
               Code
@@ -28,7 +28,7 @@ function Project() {
             </a>
 
             <a
-              href="#"
+              href="https://todo-app-omega-lake.vercel.app/"
               className="nav-link d-flex align-items-center rounded-pill border p-2"
             >
               Demo
@@ -46,7 +46,7 @@ function Project() {
           />
           <div className="d-flex m-2 justify-content-around ">
             <a
-              href="#"
+              href="https://github.com/Harshathkulal/Weather_App"
               className="nav-link d-flex align-items-center rounded-pill border p-2"
             >
               Code
@@ -54,7 +54,7 @@ function Project() {
             </a>
 
             <a
-              href="#"
+              href="https://harshathkulal.github.io/Weather_App/"
               className="nav-link d-flex align-items-center rounded-pill border p-2"
             >
               Demo
@@ -72,7 +72,7 @@ function Project() {
           />
           <div className="d-flex m-2 justify-content-around ">
             <a
-              href="#"
+              href="https://github.com/Harshathkulal/NewsApp"
               className="nav-link d-flex align-items-center rounded-pill border p-2"
             >
               Code
