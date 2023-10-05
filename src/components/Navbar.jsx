@@ -19,8 +19,8 @@ function Navbar() {
         <header className="d-flex flex-wrap justify-content-between border-bottom">
           <div className="d-flex">
             <img
-              src="https://github.com/mdo.png"
-              alt="mdo"
+              src="/src/assets/Harshath.PNG"
+              alt="H"
               width="32"
               height="32"
               className="rounded-circle m-2"
@@ -59,32 +59,29 @@ function Navbar() {
           </div>
 
           <div className="d-flex gap-4 m-2">
-            <div className="">
-              <img src={github} alt="My Image" />
+            <div className="mt-1">
+              <a href="https://github.com/Harshathkulal"><img src={github} alt="My Image" /></a>
             </div>
 
-            <div className="">
-              <img src={linkdin} alt="My Image" />
+            <div className="mt-1">
+              <a href="https://www.linkedin.com/in/harshath-kulal-ba078b209/">
+              <img src={linkdin} alt="My Image" /></a>
             </div>
           </div>
 
           <div className="d-lg-none">
-            <div onClick={handleNav}>
+            <div className="m-2" onClick={handleNav}>
               {nav ? (
-                <div className="m-2">
-                  <img src={cancel} alt="My Image" />
-                </div>
+                <img src={menu} alt="My Image" />
               ) : (
-                <div className="m-2">
-                  <img src={menu} alt="My Image" />
-                </div>
+                <img src={cancel} alt="My Image" />
               )}
             </div>
           </div>
 
           <div className="d-lg-none">
-            <div>
-              <ul className={nav ? "d-flex nav" : "d-none"}>
+            <div className="d-lg-none">
+              <ul className={nav ? "d-none" : "d-flex nav"}>
                 <li className="nav-item">
                   <a href="#About" className="nav-link text-black">
                     About
