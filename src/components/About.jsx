@@ -20,8 +20,7 @@ function About() {
         <div>
           <div className="d-flex flex-grow-1 rounded justify-content-center align-item-center">
             <p className="m-4">
-              Hi All, I am{" "}
-              <span className="text-primary">Harshath M Kulal</span> from
+              Hi All, I am <strong>Harshath M Kulal</strong> from
               Karnataka,India.
               <br />
               Aspiring Full Stack Developer with a passion for creating
@@ -29,7 +28,7 @@ function About() {
               <br />
               <br />I have 1.5 Years of Experience in IT, Currently Working in
               TCS(System Engineer)
-              <br /> As Manual Tester,Functinal Testing Etc..
+              <br /> As Manual Tester,Functinal Testing Etc.
             </p>
           </div>
           <div></div>

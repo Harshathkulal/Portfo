@@ -41,9 +41,7 @@ function Contact() {
               Send <img src="/src/assets/send.svg" alt="Send" />
             </button>
             <hr className="my-4" />
-            <small className="text-body-secondary">
-              Thank You!.
-            </small>
+            <small className="text-body-secondary">Thank You!.</small>
           </form>
         </div>
       </div>

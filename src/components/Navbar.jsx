@@ -60,12 +60,15 @@ function Navbar() {
 
           <div className="d-flex gap-4 m-2">
             <div className="mt-1">
-              <a href="https://github.com/Harshathkulal"><img src={github} alt="My Image" /></a>
+              <a href="https://github.com/Harshathkulal">
+                <img src={github} alt="My Image" />
+              </a>
             </div>
 
             <div className="mt-1">
               <a href="https://www.linkedin.com/in/harshath-kulal-ba078b209/">
-              <img src={linkdin} alt="My Image" /></a>
+                <img src={linkdin} alt="My Image" />
+              </a>
             </div>
           </div>
 
