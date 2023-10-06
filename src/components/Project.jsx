@@ -88,6 +88,33 @@ function Project() {
             </a>
           </div>
         </div>
+
+        <div className="border rounded-4 text-center">
+          <h6>Calculator</h6>
+          <img
+            src="/src/assets/Calculator.png"
+            alt="Description of the image"
+            className="img-fluid custom-img rounded m-1"
+          />
+          <div className="d-flex m-2 justify-content-around ">
+            <a
+              href="https://github.com/Harshathkulal/Calculator.app"
+              className="nav-link d-flex align-items-center rounded-pill border p-2"
+            >
+              Code
+              <img src={github} alt="My Image" />
+            </a>
+
+            <a
+              href="https://calculator-app-seven-jet.vercel.app/"
+              className="nav-link d-flex align-items-center rounded-pill border p-2"
+            >
+              Demo
+              <img src={box} alt="My Image" />
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   );

@@ -52,7 +52,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a href="#Contact" className="nav-link text-black">
-                  Contact
+                  Resume
                 </a>
               </li>
             </ul>
@@ -101,8 +101,8 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#Contact" className="nav-link text-black">
-                    Contact
+                  <a href="#Resume" className="nav-link text-black">
+                    Resume
                   </a>
                 </li>
               </ul>
