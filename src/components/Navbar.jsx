@@ -5,6 +5,7 @@ import github from "/src/assets/github.svg";
 import linkdin from "/src/assets/linkedin.svg";
 import menu from "/src/assets/list.svg";
 import cancel from "/src/assets/x.svg";
+import Harshath from "/src/assets/Harshath.png";
 
 function Navbar() {
   const [nav, setNav] = useState(true);
@@ -19,7 +20,7 @@ function Navbar() {
         <header className="d-flex flex-wrap justify-content-between border-bottom">
           <div className="d-flex">
             <img
-              src="/src/assets/Harshath.PNG"
+              src={Harshath}
               alt="H"
               width="32"
               height="32"

@@ -1,6 +1,7 @@
 import React from "react";
 import github from "/src/assets/github.svg";
-import box from "/src/assets/box-arrow-in-up-right.svg";
+import box from "/src/assets/box-arrow-in-up-right.svg"
+
 
 function Project() {
   return (

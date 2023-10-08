@@ -1,4 +1,5 @@
 import React from "react";
+import webdev from "/src/assets/webdev.svg";
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
       <div className="d-flex justify-content-center flex-wrap-reverse">
         <div className="">
           <img
-            src="/src/assets/webdev.svg"
+            src={webdev}
             alt="Description of the image"
             className="img-fluid"
           />

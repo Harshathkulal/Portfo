@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Xlogo from "/src/assets/twitter-x.svg";
 import instagram from "/src/assets/instagram.svg";
+import home from "/src/assets/home-main.svg";
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
       </div>
       <div className="">
         <img
-          src="/src/assets/home-main.svg"
+          src={home}
           alt="Description of the image"
           className="img-fluid"
         />
