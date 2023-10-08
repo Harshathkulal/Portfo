@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import resume from "/src/assets/Resume_Harshath.pdf"
 
 function Resume() {
   return (
@@ -8,8 +9,8 @@ function Resume() {
 
       <div className="container mt-5">
         <a
-          href="/path-to-your-pdf.pdf" // Replace with the actual path to your PDF file
-          download="your-pdf-filename.pdf" // Specify the desired filename for the downloaded PDF
+          href={resume} // Replace with the actual path to your PDF file
+          download="Resume_Harshath.pdf" // Specify the desired filename for the downloaded PDF
           className="btn btn-lg btn-dark"
         >
           Download PDF

@@ -1,6 +1,10 @@
 import React from "react";
 import github from "/src/assets/github.svg";
 import box from "/src/assets/box-arrow-in-up-right.svg"
+import todo from "/src/assets/Todo-App.jpg"
+import weather from "/src/assets/Weather.jpg"
+import news from "/src/assets/New-App.jpg"
+import calculator from "/src/assets/Calculator.jpg"
 
 
 function Project() {
@@ -15,7 +19,7 @@ function Project() {
         <div className="border rounded-4 text-center">
           <h6>Todo App</h6>
           <img
-            src="/src/assets/Todo-App1.PNG"
+            src={todo}
             alt="Description of the image"
             className="img-fluid custom-img rounded m-1"
           />
@@ -41,7 +45,7 @@ function Project() {
         <div className="border rounded-4 text-center">
           <h6>Weather-App</h6>
           <img
-            src="/src/assets/Weather_App.PNG"
+            src={weather}
             alt="Description of the image"
             className="img-fluid custom-img rounded m-1"
           />
@@ -67,7 +71,7 @@ function Project() {
         <div className="border rounded-4 text-center">
           <h6>News-App</h6>
           <img
-            src="/src/assets/New-App.PNG"
+            src={news}
             alt="Description of the image"
             className="img-fluid custom-img rounded m-1"
           />
@@ -93,7 +97,7 @@ function Project() {
         <div className="border rounded-4 text-center">
           <h6>Calculator</h6>
           <img
-            src="/src/assets/Calculator.png"
+            src={calculator}
             alt="Description of the image"
             className="img-fluid custom-img rounded m-1"
           />
