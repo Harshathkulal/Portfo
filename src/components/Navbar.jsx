@@ -5,7 +5,7 @@ import github from "/src/assets/github.svg";
 import linkdin from "/src/assets/linkedin.svg";
 import menu from "/src/assets/list.svg";
 import cancel from "/src/assets/x.svg";
-import Harshath from "/src/assets/Harshath.png";
+import Harshath from "/src/assets/HarshathLogo.jpg";
 
 function Navbar() {
   const [nav, setNav] = useState(true);
