@@ -21,15 +21,13 @@ function About() {
         <div>
           <div className="d-flex flex-grow-1 rounded justify-content-center align-item-center">
             <p className="m-4">
-              Hi All, I am <strong>Harshath M Kulal</strong> from
+              Hello, I'm <strong>Harshath</strong> from
               Karnataka,India.
               <br />
-              Aspiring Full Stack Developer with a passion for creating
-              innovative web applications and software solutions
+              A passionate Full Stack Developer excited to embark on a journey in the dynamic world of web development.
               <br />
-              <br />I have 1.5 Years of Experience in IT, Currently Working in
-              TCS(System Engineer)
-              <br /> As Manual Tester,Functinal Testing Etc.
+              <br />My skills and knowledge lies in leveraging React, Express, Node.js and MongoDb to build Scalable and feature-rich application
+              <br /> With a Solid foundation in frontend, I Bring a holistic approach to web development with intention to learn day by day.
             </p>
           </div>
           <div></div>

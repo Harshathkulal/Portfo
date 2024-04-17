@@ -1,11 +1,12 @@
 import React from "react";
 import github from "/src/assets/github.svg";
-import box from "/src/assets/box-arrow-in-up-right.svg"
-import todo from "/src/assets/Todo-App.jpg"
-import weather from "/src/assets/Weather.jpg"
-import news from "/src/assets/New-App.jpg"
-import calculator from "/src/assets/Calculator.jpg"
-
+import box from "/src/assets/box-arrow-in-up-right.svg";
+import todo from "/src/assets/Todo-App.jpg";
+import weather from "/src/assets/Weather.jpg";
+import news from "/src/assets/New-App.jpg";
+import calculator from "/src/assets/Calculator.jpg";
+import webchat from "/src/assets/WebChat.png";
+import daistore from "/src/assets/daistore.png"
 
 function Project() {
   return (
@@ -16,6 +17,59 @@ function Project() {
       </div>
 
       <div className="d-flex justify-content-around flex-wrap m-4 gap-5">
+
+      <div className="border rounded-4 text-center">
+          <h6>WebChat</h6>
+          <img
+            src={webchat}
+            alt="Description of the image"
+            className="img-fluid custom-img rounded"
+          />
+          <div className="d-flex m-2 justify-content-around ">
+            <a
+              href="https://github.com/Harshathkulal/Webchat"
+              className="nav-link d-flex align-items-center rounded-pill border p-2"
+            >
+              Code
+              <img src={github} alt="My Image" />
+            </a>
+
+            <a
+              href="https://webchat-024l.onrender.com/"
+              className="nav-link d-flex align-items-center rounded-pill border p-2"
+            >
+              Demo
+              <img src={box} alt="My Image" />
+            </a>
+          </div>
+        </div>
+
+        <div className="border rounded-4 text-center">
+          <h6>DaiStore</h6>
+          <img
+            src={daistore}
+            alt="Description of the image"
+            className="img-fluid custom-img rounded"
+          />
+          <div className="d-flex m-2 justify-content-around ">
+            <a
+              href="https://github.com/Harshathkulal/DaiStore"
+              className="nav-link d-flex align-items-center rounded-pill border p-2"
+            >
+              Code
+              <img src={github} alt="My Image" />
+            </a>
+
+            <a
+              href="https://daistore.web.app/"
+              className="nav-link d-flex align-items-center rounded-pill border p-2"
+            >
+              Demo
+              <img src={box} alt="My Image" />
+            </a>
+          </div>
+        </div>
+
         <div className="border rounded-4 text-center">
           <h6>Todo App</h6>
           <img
@@ -119,7 +173,6 @@ function Project() {
             </a>
           </div>
         </div>
-
       </div>
     </div>
   );

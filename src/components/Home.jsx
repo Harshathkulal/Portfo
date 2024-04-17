@@ -10,7 +10,7 @@ function Home() {
       <div className="d-flex flex-column justify-content-center text-center">
         <p>Hi There!</p>
         <h1 className="fw-bold">I'M HARSHATH M KULAL</h1>
-        <p className="fw-bold">Aspiring Full Stack Developer</p>
+        <p className="fw-bold">Full Stack Web Developer</p>
         <div>
           <a className="m-4" href="https://twitter.com/HarshathmKulal">
             <img src={Xlogo} alt="My Image" />

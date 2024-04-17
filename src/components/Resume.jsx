@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import resume from "/src/assets/Resume_Harshath.pdf"
+import resume from "/src/assets/Harshat_Resume.pdf"
 
 function Resume() {
   return (
