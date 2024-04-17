@@ -5,7 +5,7 @@ import todo from "/src/assets/Todo-App.jpg";
 import weather from "/src/assets/Weather.jpg";
 import news from "/src/assets/New-App.jpg";
 import calculator from "/src/assets/Calculator.jpg";
-import webchat from "/src/assets/WebChat.jpg";
+import webchat from "/src/assets/Webchat.jpg";
 import daistore from "/src/assets/daistore.jpg"
 
 function Project() {
